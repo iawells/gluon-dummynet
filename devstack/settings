@@ -1,0 +1,5 @@
+enable_service gluon
+
+
+GLUON_DUMMYNET_BIN_DIR=$(get_python_exec_prefix)
+GLUON_DUMMYNET_BINARY="$GLUON_BIN_DIR/gluon-dummynet-server"
